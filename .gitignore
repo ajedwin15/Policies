@@ -1,0 +1,44 @@
+# Carpeta de salida de compilación
+bin/
+obj/
+
+# Archivos temporales
+*.swp
+*.suo
+*.user
+*.bak
+*.tmp
+
+# Archivos de respaldo y basura
+*.backup
+*.bak
+*~
+*.log
+Thumbs.db
+
+# Archivos específicos de Visual Studio
+.vs/
+.vscode/
+
+# Archivos de configuración
+appsettings.json
+
+
+# Paquetes NuGet
+/packages/
+
+# Archivos de registro
+*.nlog
+*.log
+
+# Archivos generados por herramientas de compilación
+project.lock.json
+MSBuild*.tmp
+.dotnet/
+.build/
+
+# Archivos generados por la herramienta de pruebas NUnit
+TestResult.xml
+
+# Archivos de dependencias locales
+.config/
