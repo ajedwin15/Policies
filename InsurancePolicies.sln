@@ -15,6 +15,7 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsurancePolicies.Infrastructure", "src\InsurancePolicies.Infrastructure\InsurancePolicies.Infrastructure.csproj", "{66109C72-CD8E-493B-8A60-3CE57BE617D7}"
 	ProjectSection(ProjectDependencies) = postProject
 		{5BE84A76-1A7F-4931-8274-716046AFF40A} = {5BE84A76-1A7F-4931-8274-716046AFF40A}
+		{C7270681-FAFE-434F-9361-59DC8911068F} = {C7270681-FAFE-434F-9361-59DC8911068F}
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsurancePolicies.IntegrationTests", "test\InsurancePolicies.IntegrationTests\InsurancePolicies.IntegrationTests.csproj", "{9C999613-2443-4295-8CFF-52DB79B5102E}"
