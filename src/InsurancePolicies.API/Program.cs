@@ -7,10 +7,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-// ENV PREFIX AND DOMAIN
-string url = builder.Configuration.GetValue<string>("API_DOMAIN_URL");
-builder.WebHost.UseUrls(url);
-
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
