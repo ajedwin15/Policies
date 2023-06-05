@@ -37,7 +37,12 @@ namespace src.InsurancePolicies.Domain.Entities
         public string? ClientResidenceAddress { get; set; }
 
         [BsonElement("vehiclePlateNumber")]
-        public string? VehiclePlateNumber { get; set; }
+        private string _vehiclePlateNumber;
+        public string VehiclePlateNumber
+        {
+            get { return _vehiclePlateNumber; }
+            set { _vehiclePlateNumber = value.ToUpper(); }
+        }
 
         [BsonElement("vehicleModel")]
         public string? VehicleModel { get; set; }
