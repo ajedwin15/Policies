@@ -57,7 +57,7 @@ Para configurar la aplicación, necesitas definir algunas variables de entorno p
 
 ## Configuración de la base de datos
 
-configura tu appsettings crealo en el mimo lugar donde esta el archivo `appsettings.Development.json`
+configura tu appsettings crealo en el mimo lugar donde esta el archivo `appsettings.example.json`
 
 Para configurar MongoDB, actualiza el archivo `appsettings.json` con tu cadena de conexión a la base de datos. 
 
