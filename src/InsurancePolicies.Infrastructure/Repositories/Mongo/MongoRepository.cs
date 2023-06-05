@@ -36,17 +36,15 @@ namespace src.InsurancePolicies.Infrastructure.Repositories.Mongo
 
         public async Task<TDocument> UpdateDocument(TDocument document)
         {
-            var filter = Builders<TDocument>.Filter.Eq(doc => doc.Id, document.Id);
-            
-            var updated = await _collection.FindOneAndReplaceAsync(filter, document);
-            return updated;
+            var filter = Builders<TDocument>.Filter.Eq(doc => doc.Id, document.Id);        
+            await _collection.FindOneAndReplaceAsync(filter, document); 
+            return document;
         }
 
         public async Task<TDocument> DeleteById(string Id)
         {
             var filter = Builders<TDocument>.Filter.Eq(doc => doc.Id, Id);
-            var deleted = await _collection.FindOneAndDeleteAsync(filter);
-            return deleted;
+            return await _collection.FindOneAndDeleteAsync(filter);            
         } 
     }
 }
