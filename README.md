@@ -50,9 +50,9 @@ Para configurar la aplicación, necesitas definir algunas variables de entorno p
 
 3. Restaura las dependencias del proyecto con `dotnet restore`.
 
-4. Compila el proyecto con `dotnet build`.
+4. Compila el proyecto 
 
-5. Inicia el proyecto con `dotnet run`.
+5. Estabelce como proyecto de unicio la capa `InsurancePolicies.sln`.
 
 
 ## Configuración de la base de datos
