@@ -48,11 +48,11 @@ Para configurar la aplicación, necesitas definir algunas variables de entorno p
 
 2. Navega hasta la carpeta del proyecto e inicia la solucion  `InsurancePolicies.sln`.
 
-3. Restaura las dependencias del proyecto con `dotnet restore`.
+3. Estabelce como proyecto de unicio la capa `InsurancePolicies.API`.
 
 4. Compila el proyecto 
 
-5. Estabelce como proyecto de unicio la capa `InsurancePolicies.sln`.
+5. Inicas el proyecto con el boton de start.
 
 
 ## Configuración de la base de datos
